@@ -1,0 +1,39 @@
+body{
+    background-color: cornsilk;
+}
+
+h1{
+    text-align: center;
+}
+.country{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;  
+    background-image: linear-gradient(#fceae8, #f5deb3); 
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+#country-details{
+    width:50%;
+    margin: auto; 
+    font-size: 24px;
+
+}
+.details{
+    display: grid;
+    border-radius: 20px;
+    padding: 40px;
+    grid-template-columns: repeat(2,1fr);
+    background-color: wheat;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+#link:hover{
+    background-image:linear-gradient( #EABD69,#F5DEB3);
+}
